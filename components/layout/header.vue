@@ -1,7 +1,6 @@
 <template>
   <header class="sticky-top bg-nothing">
     <div class="container">
-      <p>hello world</p>
       <!-- Image and text -->
       <ul class="nav mobile">
         <!--Hamburger menu toggle button-->
@@ -15,13 +14,13 @@
         <div class="menu-container">
           <ul>
             <li>
-              <!-- <a class="nav-link" href="../index.html">首頁</a> -->
+              <nuxt-link to="/" class="nav-link">首頁</nuxt-link>
             </li>
             <li>
-              <!-- <a class="nav-link" href="product.html">甜點</a> -->
+              <nuxt-link to="/" class="nav-link">甜點</nuxt-link>
             </li>
             <li>
-              <!-- <a class="nav-link" href="login.html">登入</a> -->
+              <nuxt-link to="/" class="nav-link">登入</nuxt-link>
             </li>
           </ul>
         </div>
@@ -60,3 +59,7 @@
     </div>
   </header>
 </template>
+
+<style lang="scss">
+// @import '@/assets/scss/_layout.scss';
+</style>
