@@ -25,7 +25,7 @@
           </ul>
         </div>
         <li class="nav-item">
-          <nuxt-link to="/index">
+          <nuxt-link to="/">
             <img src="../../assets/images/logotype-lg-dark.svg" alt="" width="114.14px">
           </nuxt-link>
         </li>
@@ -36,12 +36,12 @@
         </li>
       </ul>
       <nav class="navbar navbar-light">
-        <nuxt-link to="/index" class="navbar-brand">
+        <nuxt-link to="/" class="navbar-brand">
           <img src="../../assets/images/logo-all-dark.svg" height="40" class="d-inline-block align-top" alt="">
         </nuxt-link>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <nuxt-link to="/index" class="nav-link">首頁</nuxt-link>
+            <nuxt-link to="/" class="nav-link">首頁</nuxt-link>
           </li>
           <li class="nav-item">
             <nuxt-link to="/product" class="nav-link">甜點</nuxt-link>

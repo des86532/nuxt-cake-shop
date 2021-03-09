@@ -47,7 +47,7 @@
 }
 
 .heart {
-    background: url(img/baseline-favorite_border-24px.svg) no-repeat center;
+    background: url(../images/baseline-favorite_border-24px.svg) no-repeat center;
     background-size: cover;
     color: $darkgreen;
     width: 20px;
@@ -58,7 +58,7 @@
     z-index: 2;
 
     &:hover {
-        background: url(img/if_heart-24_103180.svg) no-repeat center;
+        background: url(../images/if_heart-24_103180.svg) no-repeat center;
         background-size: cover;
     }
 }
