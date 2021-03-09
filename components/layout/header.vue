@@ -25,34 +25,34 @@
           </ul>
         </div>
         <li class="nav-item">
-          <!-- <a class="nav-link" href="../index.html">
-            <img src="../stylesheet/img/logotype-lg-dark.svg" alt="" width="114.14px">
-          </a> -->
+          <nuxt-link to="/index">
+            <img src="../../assets/images/logotype-lg-dark.svg" alt="" width="114.14px">
+          </nuxt-link>
         </li>
         <li class="nav-item">
-          <!-- <a class="nav-link" href="cart.html">
-              <img src="../stylesheet/img/baseline-shopping_cart-24px.svg" alt="">
-          </a> -->
+          <nuxt-link to="/cart" class="nav-link">
+            <img src="../../assets/images/baseline-shopping_cart-24px.svg" alt="">
+          </nuxt-link>
         </li>
       </ul>
       <nav class="navbar navbar-light">
-        <!-- <a class="navbar-brand" href="../index.html">
-          <img src="../stylesheet/img/logo-all-dark.svg" height="40" class="d-inline-block align-top" alt="">
-        </a> -->
+        <nuxt-link to="/index" class="navbar-brand">
+          <img src="../../assets/images/logo-all-dark.svg" height="40" class="d-inline-block align-top" alt="">
+        </nuxt-link>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <!-- <a class="nav-link" href="../index.html">首頁</a> -->
+            <nuxt-link to="/index" class="nav-link">首頁</nuxt-link>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" href="product.html">甜點</a> -->
+            <nuxt-link to="/product" class="nav-link">甜點</nuxt-link>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" href="login.html">登入</a> -->
+            <nuxt-link to="/login" class="nav-link">登入</nuxt-link>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" href="cart.html">
-              <img src="../stylesheet/img/baseline-shopping_cart-24px.svg" alt="">
-            </a> -->
+            <nuxt-link to="/cart" class="nav-link">
+              <img src="../../assets/images/baseline-shopping_cart-24px.svg" alt="">
+            </nuxt-link>
           </li>
         </ul>
       </nav>
@@ -61,5 +61,5 @@
 </template>
 
 <style lang="scss">
-// @import '@/assets/scss/_layout.scss';
+@import '@/assets/scss/_layout.scss';
 </style>

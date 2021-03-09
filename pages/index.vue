@@ -22,6 +22,7 @@
         >
           GitHub
         </a>
+        <nuxt-link to="/login">login</nuxt-link>
       </div>
     </div>
   </div>
