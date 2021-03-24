@@ -1,5 +1,7 @@
 # nuxt-cake-shop
 
+test
+
 ## Build Setup
 
 ```bash
